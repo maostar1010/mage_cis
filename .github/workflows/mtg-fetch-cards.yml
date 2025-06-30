@@ -1,6 +1,7 @@
 name: Mtg Card Fetch Bot
 
 on:
+  workflow_dispatch:
   issue_comment:
     types: [created]
   issues:
